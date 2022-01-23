@@ -1,0 +1,22 @@
+{
+  "name": "svelte-game-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captaincrazybro/svelte-game-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/captaincrazybro/svelte-game-engine/issues"
+  },
+  "homepage": "https://github.com/captaincrazybro/svelte-game-engine#readme",
+  "dependencies": {
+    "svelte": "^3.46.2"
+  }
+}
