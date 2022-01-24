@@ -1,5 +1,17 @@
 <script>
-export let width, height, 
+const { bind } = require("svelte/internal")
+
+export let height = innerHeight
+export let width = innerWidth
+
+let innerHeight, innerWidth, canvas
+
 </script>
 
-<h1>Wasup</h1>
+<svelte:window bind:innerHeight={innerHeight} bind:innerWidth={innerWidth} />
+
+<canvas 
+    bind:this={canvas} 
+    height={height}
+    width={width}
+/>
